@@ -83,7 +83,7 @@ def partition_and_save(df, sizes=(35000, 5000, 10000)):
 
 
 if __name__ == "__main__":
-    dataset_url = "http://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz"
+    dataset_url = "https://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz"
     print("Downloading dataset ...")
     download_and_extract_dataset(dataset_url, "aclImdb_v1.tar.gz", "aclImdb")
     print("Creating data frames ...")
